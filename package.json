@@ -1,9 +1,10 @@
 {
   "name": "converse",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build:android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.jsbundle --assets-dest android/app/src/main/res && cd android && ./gradlew assembleRelease",
     "test": "jest"
   },
   "dependencies": {
