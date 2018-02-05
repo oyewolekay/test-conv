@@ -51,11 +51,3 @@ buck-out/
 */fastlane/report.xml
 */fastlane/Preview.html
 */fastlane/screenshots
-
-# custom
-#
-*.jsbundle
-*.bundle
-*.jsbundle.meta
-*.bundle.meta
-.directory

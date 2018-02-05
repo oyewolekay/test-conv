@@ -8,7 +8,7 @@ import Font from '../config/Fonts';
 
 const { width, height } = Dimensions.get('window');
 
-const SplashScreen = () => {
+const Welcome = () => {
     return (
         <LinearGradient
             style={styles.body}
@@ -71,4 +71,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default SplashScreen;
+export default Welcome;
